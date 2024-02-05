@@ -1,0 +1,44 @@
+<Table3>
+    <person sr="1">
+        <ID> 1 </ID>
+        <NAMEe> John Doe </NAME>
+        <ADDRESS> 
+            <Flat_no></Flat_no>
+            <House_no> H# 38 </House_no>
+            <Road_no> R#3 </Road_no>
+            <Area> Banani </Area>
+            <District> Dhaka </District>
+        </ADDRESS>
+        <DEPARTMENT> Sales </DEPARTMENT>
+        <SALARY> $20000 </SALARY>
+    </person>
+
+    <person sr="2">
+        <ID> 2 </ID>
+        <NAMEe> Mark Zuckerberg </NAME>
+        <ADDRESS> 
+            <Flat_no> Flat# A/1 </Flat_no>
+            <House_no> H# 20 </House_no>
+            <Road_no> R#18 </Road_no>
+            <Area> Mirpur </Area>
+            <District> Dhaka </District>
+        </ADDRESS>
+        <DEPARTMENT> Accounts </DEPARTMENT>
+        <SALARY> $12000 </SALARY>
+    </person>
+     
+     <person sr="3">
+        <ID> 3 </ID>
+        <NAMEe> Ala Voski </NAME>
+        <ADDRESS>
+            <Flat_no></Flat_no>
+            <House_no> H# 38 </House_no>
+            <Road_no> R#3 </Road_no>
+            <Area> Motijheel </Area>
+            <District></District>
+        </ADDRESS>
+        <DEPARTMENT> Human Resource </DEPARTMENT>
+        <SALARY> $30000 </SALARY>
+    </person>
+
+</Table3>
