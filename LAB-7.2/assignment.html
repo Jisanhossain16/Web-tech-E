@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title>Assignment</title>
+    <script src="assignment.js"></script>
+    <style>
+        p {
+            color: red;
+        }
+
+        .button {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table border="1">
+            <tr>
+                <td colspan="3" align="center">
+                    <h1>PERSON PROFILE</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Name </td>
+                <td>
+                    <input id="name" type="text" name="name" value=""><br>
+                </td>
+                <td>
+                    <div id="nameError">
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Email </td>
+                <td>
+                    <input id="name" type="email" name="name" value=""><br>
+                </td>
+                <td>
+                    <p class="emailError" id="emailError">Plaese insert valid email</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender </td>
+                <td>
+                    <input id="gender" type="radio" name="gender" value="" /> Male
+                    <input id="gender" type="radio" name="gender" value="" /> Female
+                    <input id="gender" type="radio" name="gender" value="" /> Other
+                </td>
+                <td>
+                    <p class="genderError" id="genderError">Plaese select one option</p>
+                </td>
+            </tr>
+            <tr>
+                <td>DOB </td>
+                <td>
+                    <input id="day" type="number" name="dd" value=""> /
+                    <input id="month" type="number" name="mm" value=""> /
+                    <input id="year" type="number" name="yyyy" value="">(day/month/year)
+                    <hr>
+                </td>
+                <td>
+                    <p class="bodError" id="bodError">Plaese insert valid DOB</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Blood Group </td>
+                <td>
+                    <select name="select" id="bloodGroup">
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select>
+                </td>
+                <td>
+                    <p class="bgrpError" id="bgrpError">Plaese choose one option</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Degree </td>
+                <td>
+                    <input type="checkbox" name="degree" value="" /> SSC
+                    <input type="checkbox" name="degree" value="" /> HSC
+                    <input type="checkbox" name="degree" value="" /> BSc
+                </td>
+                <td>
+                    <p class="degreeError" id="degreeError">Plaese choose one option</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Photo </td>
+                <td colspan="2">
+                    Image : <input id="image" type="file" name="image" value="" /><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <button onclick="assignment()" class="button">Submit</button>
+                    <button class="button">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
